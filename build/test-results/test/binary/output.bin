@@ -1,0 +1,19 @@
+‡2024-06-07 09:14:54.248 [Test worker @coroutine#1] TRACE i.ktor.client.plugins.HttpPlainText - Adding Accept-Charset=UTF-8 to http:///
+¤2024-06-07 09:14:54.279 [DefaultDispatcher-worker-1 @call-context#2] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+}2024-06-07 09:14:54.297 [DefaultDispatcher-worker-1 @call-context#2] INFO  ktor.test - Application started in 0.022 seconds.
+v2024-06-07 09:14:54.298 [DefaultDispatcher-worker-3 @coroutine#4] INFO  ktor.test - Responding at http://localhost:80
+x2024-06-07 09:14:54.299 [DefaultDispatcher-worker-3 @coroutine#4] INFO  ktor.test - Responding at https://localhost:443
+m2024-06-07 09:14:54.322 [DefaultDispatcher-worker-1 @request#2] TRACE io.ktor.routing.Routing - Trace for []
+/, segment:0 -> SUCCESS @ /
+B  /static, segment:0 -> FAILURE "Selector didn't match" @ /static
+@  /tasks, segment:0 -> FAILURE "Selector didn't match" @ /tasks
+B  /byName, segment:0 -> FAILURE "Selector didn't match" @ /byName
+J  /byPriority, segment:0 -> FAILURE "Selector didn't match" @ /byPriority
+H  /powerMove, segment:0 -> FAILURE "Selector didn't match" @ /powerMove
+D  /pokemon, segment:0 -> FAILURE "Selector didn't match" @ /pokemon
+Matched routes:
+  No results
+Route resolve result:
+*  FAILURE "No matched subtrees found" @ /
+’2024-06-07 09:14:54.472 [Test worker @coroutine#1] TRACE i.k.client.plugins.HttpCallValidator - Validating response for request http://localhost/
+˜2024-06-07 09:14:54.472 [Test worker @coroutine#1] TRACE i.k.c.p.DefaultResponseValidation - Skipping default response validation for http://localhost/
